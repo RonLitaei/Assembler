@@ -1,6 +1,8 @@
 The Assembler is written in C language and its purpose is to translate an imaginary "Assembly" language into a made up 32 based number system.
-The Assembler works its magic on the .as file, the .as file contains the Assembly language code.
+
+The Assembler works its magic on the .as file which contains the Assembly language code.
 When activating the Assembler from the terminal: 
+
 if the Assembly file was written correctly, there are 4 possible key files that are created:
 1. The main file: .ob file - this file contains the translated file: the 32 based number system file.
 2. The macro file: .am file - like its name suggests, if macros were written in the Assembly file, the .am file will only contain their content, meaning, the macros will be deleted and their content will be laid out in the file.
